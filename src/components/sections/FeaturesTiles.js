@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Fun Companies Example',
+    paragraph: 'I am going to use the some fun companies as an example for these tiles. Lets make icons and a short description for these tiles'
   };
 
   return (
@@ -63,18 +63,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
+                      src={require('./../../assets/images/appleicon.png')}
+                      alt="appleicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Apple
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    This was made on a Mac! I have ben using Apple computers since the third grade, and couldnt be happier with their products. Innovatinve, easy, and straightforward.
                     </p>
                 </div>
               </div>
@@ -85,18 +85,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
+                      src={require('./../../assets/images/ebayicon.png')}
+                      alt="ebayicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Ebay
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Take me back to middle and highschool where i was a pro and last minute bids. Bought many surfboards through Ebay. Really was the first of its kind.
                     </p>
                 </div>
               </div>
@@ -107,18 +107,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
+                      src={require('./../../assets/images/amazonicon.png')}
+                      alt="playstationicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Amazon
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    I know that I just praised ebay, but it needs to know when it has been beat. Amazon changed the game. Furninshed my first appartment with one click buy.
                     </p>
                 </div>
               </div>
@@ -129,18 +129,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
+                      src={require('./../../assets/images/spotifyicon.png')}
+                      alt="spotifyicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Spotify
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    The king of music streaming. I was never a fan of Pandora, so when 8tracks died and Spotify came about , my world was rocked (See what I did there).
                     </p>
                 </div>
               </div>
@@ -151,18 +151,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
+                      src={require('./../../assets/images/windowsicon.png')}
+                      alt="windowsicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Microsoft
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    First off, let me thank you for Xbox. I don't use many other Microsoft products outside of projects, but you have to respect how much they have done.
                     </p>
                 </div>
               </div>
@@ -173,18 +173,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
+                      src={require('./../../assets/images/stumbleuponicon.png')}
+                      alt="stumbleuponicon"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Stumbleupon
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    The reason finished my work so quickly in 1st period Digital Media, junior year. I learned so many interesting things. RIP my Sweet Prince
                     </p>
                 </div>
               </div>

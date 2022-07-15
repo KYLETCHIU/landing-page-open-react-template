@@ -7,10 +7,10 @@ import ReactGA from 'react-ga';
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 
-// Views 
+
 import Home from './views/Home';
 
-// Initialize Google Analytics
+
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
 const trackPage = page => {
@@ -28,7 +28,7 @@ const App = () => {
     document.body.classList.add('is-loaded')
     childRef.current.init();
     trackPage(page);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, [location]);
 
   return (
